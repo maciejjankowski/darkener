@@ -1,0 +1,22 @@
+*{
+color: darkgray !important;
+background-color: rgb(20,35,20) !important;
+}
+a{
+color: lightblue !important;
+}
+h1,h2,h3,h4,h5,h6 {
+  color: slategray !important;
+}
+
+
+pre, code{
+    color: green;
+}
+img {
+    -webkit-filter: opacity(0.7) !important;
+}
+
+iframe {
+    -webkit-filter: opacity(0.7) !important;
+}

@@ -1,0 +1,15 @@
+{
+  "name": "darkener",
+  "version": "0.0.1",
+  "manifest_version":2,
+  "description": "make every page sad",
+  "permissions": [
+  ],
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "css" : ["d.css"],
+      "run_at": "document_end"
+    }
+  ]
+}
